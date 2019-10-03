@@ -2,7 +2,7 @@
 ----------
 
 ## Asynchronous Key Prefetch(AKP)とは
-Amazon Aurora MySQLにおいて、**buffer poolやquery cacheにない場合**のBatched Key Access(BKA)Joinアルゴリズムと<br/>
+Amazon Aurora MySQLにおいて、**buffer poolやquery cacheにない場合**のBatched Key Access(BKA)Joinアルゴリズムと
 Multi-Range Read(MRR)最適化を使⽤するクエリのJOIN性能を10倍にするもの。Auroraのバージョン1.15から使用可能。<br/>
 
 
